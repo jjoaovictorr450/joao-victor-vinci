@@ -1,0 +1,22 @@
+VINCI — PROJETO EM VUEJS
+
+REQUISITOS:
+- Node.js instalado (versão LTS)
+
+COMO ABRIR:
+1. Extraia a pasta vinci-vue.
+2. Abra essa pasta no VS Code.
+3. Abra Terminal > New Terminal.
+4. Execute: npm install
+5. Depois execute: npm run dev
+6. Abra no navegador o endereço exibido no terminal (normalmente http://localhost:5173).
+
+PARA GERAR A VERSÃO DE PUBLICAÇÃO:
+- Execute: npm run build
+- Os arquivos prontos ficam na pasta dist.
+
+OBSERVAÇÕES:
+- O projeto usa Vue 3 + Vite.
+- As imagens demonstrativas estão hospedadas externamente; é necessário estar conectado à internet.
+- Os números de autonomia e desempenho são ilustrativos e devem ser ajustados caso o professor tenha fornecido dados oficiais.
+- A página de veículo abre por exemplo em carro.html?modelo=v2; no projeto Vite, a rota equivalente é /?modelo=v2 ou /carro.html?modelo=v2 após configurar a hospedagem. Para testar, clique nos modelos pelo próprio site.
